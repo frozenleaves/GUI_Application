@@ -1,1 +1,3 @@
 C:\Users\Administrator\PycharmProjects\桌面应用程序\designer\MainWindow.ui
+
+if the markdown running,pycharm will be stop
