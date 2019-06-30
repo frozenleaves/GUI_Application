@@ -13,7 +13,7 @@ ui = sb.Ui_MainWindow()
 
 ui.setupUi(mainWindow)
 mainWindow.resize(*size)
-mainWindow.setWindowTitle('混合布局')
+mainWindow.setWindowTitle('栅格布局')
 
 mainWindow.show()
 sys.exit(app.exec_())
