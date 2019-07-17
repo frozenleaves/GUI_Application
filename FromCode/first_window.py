@@ -16,8 +16,6 @@ class MainWindow(QMainWindow):
         # 设置窗口大小
         self.resize(800, 600)
 
-        # 设置应用图标
-
         # 获取状态栏
         self.status = self.statusBar()
 
@@ -28,6 +26,7 @@ class MainWindow(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
 
+    # 设置应用图标
     app.setWindowIcon(QIcon('./images/枫叶.png'))
 
     window = MainWindow()
