@@ -1,0 +1,7 @@
+主窗口类型
+
+有三种窗口
+
+    QMainWindow: 包含菜单栏，工具栏，状态栏，是最常用的窗口类型
+    QWidget: 可以代替QMainWindow和QDialog
+    QDialog: 对话窗口的基类，没有菜单栏，工具栏，状态栏
